@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA371B9D2968F6AD00942BA2 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA371B9C2968F6AD00942BA2 /* AccountsView.swift */; };
+		AA371BA0296A834A00942BA2 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA371B9F296A834A00942BA2 /* LogInView.swift */; };
+		AA371BA2296A836E00942BA2 /* LogInCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA371BA1296A836E00942BA2 /* LogInCall.swift */; };
+		AA371BA4296A868300942BA2 /* LogInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA371BA3296A868300942BA2 /* LogInButtonView.swift */; };
+		AA371BAD296CA39500942BA2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA371BAC296CA39500942BA2 /* SignUpView.swift */; };
+		AA371BAF296CA45100942BA2 /* SignUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA371BAE296CA45100942BA2 /* SignUpButtonView.swift */; };
+		AA371BB1296CDB7600942BA2 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA371BB0296CDB7600942BA2 /* CurrentUser.swift */; };
+		AA56FE2929552E0E00BE2B19 /* FinAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56FE2829552E0E00BE2B19 /* FinAppApp.swift */; };
+		AA56FE2D29552E1100BE2B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56FE2C29552E1100BE2B19 /* Assets.xcassets */; };
+		AA56FE3029552E1100BE2B19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56FE2F29552E1100BE2B19 /* Preview Assets.xcassets */; };
+		AA7ABD0C296741C9001206EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ABD0B296741C9001206EA /* CardView.swift */; };
+		AA7ABD0E2967C5FA001206EA /* CardTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ABD0D2967C5FA001206EA /* CardTransactionView.swift */; };
+		AA7DD3AC295E217600F89FB0 /* LinkTokenCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3AB295E217600F89FB0 /* LinkTokenCall.swift */; };
+		AA7DD3AE295E239500F89FB0 /* PublicTokenExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3AD295E239500F89FB0 /* PublicTokenExchange.swift */; };
+		AA7DD3B0295E4F2B00F89FB0 /* TransactionGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3AF295E4F2B00F89FB0 /* TransactionGet.swift */; };
+		AA7DD3B2295E681700F89FB0 /* AccountBalanceGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3B1295E681700F89FB0 /* AccountBalanceGet.swift */; };
+		AA7DD3B4295E767600F89FB0 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3B3295E767600F89FB0 /* Tokens.swift */; };
+		AA7DD3B6295E7FCE00F89FB0 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3B5295E7FCE00F89FB0 /* BalanceView.swift */; };
+		AA7DD3B8295F8C7200F89FB0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3B7295F8C7200F89FB0 /* MainView.swift */; };
+		AA7DD3BA2960C50300F89FB0 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DD3B92960C50300F89FB0 /* TransactionView.swift */; };
+		AA862548295CE36600EA2486 /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA862547295CE36600EA2486 /* LinkKit */; };
+		AA86254C295D1F0D00EA2486 /* LinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86254B295D1F0D00EA2486 /* LinkController.swift */; };
+		AA862550295E0A7C00EA2486 /* AddBankButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86254F295E0A7C00EA2486 /* AddBankButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA371B9C2968F6AD00942BA2 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		AA371B9F296A834A00942BA2 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		AA371BA1296A836E00942BA2 /* LogInCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInCall.swift; sourceTree = "<group>"; };
+		AA371BA3296A868300942BA2 /* LogInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButtonView.swift; sourceTree = "<group>"; };
+		AA371BAC296CA39500942BA2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		AA371BAE296CA45100942BA2 /* SignUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButtonView.swift; sourceTree = "<group>"; };
+		AA371BB0296CDB7600942BA2 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		AA56FE2529552E0E00BE2B19 /* PersonalFinFrontEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalFinFrontEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA56FE2829552E0E00BE2B19 /* FinAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinAppApp.swift; sourceTree = "<group>"; };
+		AA56FE2C29552E1100BE2B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA56FE2F29552E1100BE2B19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA7ABD0B296741C9001206EA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AA7ABD0D2967C5FA001206EA /* CardTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransactionView.swift; sourceTree = "<group>"; };
+		AA7DD3AB295E217600F89FB0 /* LinkTokenCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkTokenCall.swift; sourceTree = "<group>"; };
+		AA7DD3AD295E239500F89FB0 /* PublicTokenExchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTokenExchange.swift; sourceTree = "<group>"; };
+		AA7DD3AF295E4F2B00F89FB0 /* TransactionGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionGet.swift; sourceTree = "<group>"; };
+		AA7DD3B1295E681700F89FB0 /* AccountBalanceGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceGet.swift; sourceTree = "<group>"; };
+		AA7DD3B3295E767600F89FB0 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		AA7DD3B5295E7FCE00F89FB0 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		AA7DD3B7295F8C7200F89FB0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AA7DD3B92960C50300F89FB0 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		AA86254B295D1F0D00EA2486 /* LinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkController.swift; sourceTree = "<group>"; };
+		AA86254F295E0A7C00EA2486 /* AddBankButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA56FE2229552E0E00BE2B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA862548295CE36600EA2486 /* LinkKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA371B9E296A831100942BA2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AA371B9F296A834A00942BA2 /* LogInView.swift */,
+				AA371BA1296A836E00942BA2 /* LogInCall.swift */,
+				AA371BA3296A868300942BA2 /* LogInButtonView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AA371BA7296C88A100942BA2 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		AA371BAA296C88DB00942BA2 /* Linking */ = {
+			isa = PBXGroup;
+			children = (
+				AA86254F295E0A7C00EA2486 /* AddBankButton.swift */,
+				AA7DD3B3295E767600F89FB0 /* Tokens.swift */,
+				AA7DD3AB295E217600F89FB0 /* LinkTokenCall.swift */,
+				AA7DD3AD295E239500F89FB0 /* PublicTokenExchange.swift */,
+				AA86254B295D1F0D00EA2486 /* LinkController.swift */,
+			);
+			path = Linking;
+			sourceTree = "<group>";
+		};
+		AA371BAB296CA37900942BA2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				AA371BAC296CA39500942BA2 /* SignUpView.swift */,
+				AA371BAE296CA45100942BA2 /* SignUpButtonView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		AA56FE1C29552E0E00BE2B19 = {
+			isa = PBXGroup;
+			children = (
+				AA56FE2729552E0E00BE2B19 /* FinApp */,
+				AA56FE2629552E0E00BE2B19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA56FE2629552E0E00BE2B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA56FE2529552E0E00BE2B19 /* PersonalFinFrontEnd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA56FE2729552E0E00BE2B19 /* FinApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA371BB0296CDB7600942BA2 /* CurrentUser.swift */,
+				AA371BAB296CA37900942BA2 /* SignUp */,
+				AA371BAA296C88DB00942BA2 /* Linking */,
+				AA371B9E296A831100942BA2 /* Login */,
+				AA371BA7296C88A100942BA2 /* Accounts */,
+				AA7DD3AA295E215700F89FB0 /* Calls */,
+				AA56FE2829552E0E00BE2B19 /* FinAppApp.swift */,
+				AA7DD3B7295F8C7200F89FB0 /* MainView.swift */,
+				AA7DD3B5295E7FCE00F89FB0 /* BalanceView.swift */,
+				AA7DD3B92960C50300F89FB0 /* TransactionView.swift */,
+				AA56FE2C29552E1100BE2B19 /* Assets.xcassets */,
+				AA56FE2E29552E1100BE2B19 /* Preview Content */,
+				AA7ABD0B296741C9001206EA /* CardView.swift */,
+				AA7ABD0D2967C5FA001206EA /* CardTransactionView.swift */,
+				AA371B9C2968F6AD00942BA2 /* AccountsView.swift */,
+			);
+			path = FinApp;
+			sourceTree = "<group>";
+		};
+		AA56FE2E29552E1100BE2B19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA56FE2F29552E1100BE2B19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA7DD3AA295E215700F89FB0 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DD3AF295E4F2B00F89FB0 /* TransactionGet.swift */,
+				AA7DD3B1295E681700F89FB0 /* AccountBalanceGet.swift */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA56FE2429552E0E00BE2B19 /* PersonalFinFrontEnd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA56FE3329552E1100BE2B19 /* Build configuration list for PBXNativeTarget "PersonalFinFrontEnd" */;
+			buildPhases = (
+				AA56FE2129552E0E00BE2B19 /* Sources */,
+				AA56FE2229552E0E00BE2B19 /* Frameworks */,
+				AA56FE2329552E0E00BE2B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalFinFrontEnd;
+			packageProductDependencies = (
+				AA862547295CE36600EA2486 /* LinkKit */,
+			);
+			productName = FinApp;
+			productReference = AA56FE2529552E0E00BE2B19 /* PersonalFinFrontEnd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA56FE1D29552E0E00BE2B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AA56FE2429552E0E00BE2B19 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AA56FE2029552E0E00BE2B19 /* Build configuration list for PBXProject "PersonalFinFrontEnd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA56FE1C29552E0E00BE2B19;
+			packageReferences = (
+				AA862546295CE36500EA2486 /* XCRemoteSwiftPackageReference "plaid-link-ios" */,
+			);
+			productRefGroup = AA56FE2629552E0E00BE2B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA56FE2429552E0E00BE2B19 /* PersonalFinFrontEnd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA56FE2329552E0E00BE2B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA56FE3029552E1100BE2B19 /* Preview Assets.xcassets in Resources */,
+				AA56FE2D29552E1100BE2B19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA56FE2129552E0E00BE2B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA862550295E0A7C00EA2486 /* AddBankButton.swift in Sources */,
+				AA7DD3B6295E7FCE00F89FB0 /* BalanceView.swift in Sources */,
+				AA7DD3B0295E4F2B00F89FB0 /* TransactionGet.swift in Sources */,
+				AA371BA4296A868300942BA2 /* LogInButtonView.swift in Sources */,
+				AA371BAD296CA39500942BA2 /* SignUpView.swift in Sources */,
+				AA371BAF296CA45100942BA2 /* SignUpButtonView.swift in Sources */,
+				AA86254C295D1F0D00EA2486 /* LinkController.swift in Sources */,
+				AA371B9D2968F6AD00942BA2 /* AccountsView.swift in Sources */,
+				AA7DD3BA2960C50300F89FB0 /* TransactionView.swift in Sources */,
+				AA7DD3AC295E217600F89FB0 /* LinkTokenCall.swift in Sources */,
+				AA7ABD0C296741C9001206EA /* CardView.swift in Sources */,
+				AA7ABD0E2967C5FA001206EA /* CardTransactionView.swift in Sources */,
+				AA371BA2296A836E00942BA2 /* LogInCall.swift in Sources */,
+				AA7DD3B2295E681700F89FB0 /* AccountBalanceGet.swift in Sources */,
+				AA7DD3B8295F8C7200F89FB0 /* MainView.swift in Sources */,
+				AA7DD3AE295E239500F89FB0 /* PublicTokenExchange.swift in Sources */,
+				AA56FE2929552E0E00BE2B19 /* FinAppApp.swift in Sources */,
+				AA371BA0296A834A00942BA2 /* LogInView.swift in Sources */,
+				AA371BB1296CDB7600942BA2 /* CurrentUser.swift in Sources */,
+				AA7DD3B4295E767600F89FB0 /* Tokens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA56FE3129552E1100BE2B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA56FE3229552E1100BE2B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA56FE3429552E1100BE2B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XQT8S8MV72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DavidNikiforov.FinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA56FE3529552E1100BE2B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XQT8S8MV72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DavidNikiforov.FinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA56FE2029552E0E00BE2B19 /* Build configuration list for PBXProject "PersonalFinFrontEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA56FE3129552E1100BE2B19 /* Debug */,
+				AA56FE3229552E1100BE2B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA56FE3329552E1100BE2B19 /* Build configuration list for PBXNativeTarget "PersonalFinFrontEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA56FE3429552E1100BE2B19 /* Debug */,
+				AA56FE3529552E1100BE2B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA862546295CE36500EA2486 /* XCRemoteSwiftPackageReference "plaid-link-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA862547295CE36600EA2486 /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA862546295CE36500EA2486 /* XCRemoteSwiftPackageReference "plaid-link-ios" */;
+			productName = LinkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA56FE1D29552E0E00BE2B19 /* Project object */;
+}
